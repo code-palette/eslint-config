@@ -1,0 +1,14 @@
+{
+  "name": "@code-palette/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-no-null": "^1.0.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  }
+}
