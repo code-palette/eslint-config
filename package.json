@@ -1,12 +1,17 @@
 {
   "name": "@code-palette/eslint-config",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "ISC",
+  "exports": {
+    ".": "./configs/javascript.js",
+    "./javascript": "./configs/javascript.js",
+    "./typescript": "./configs/typescript.js",
+    "./typescript-legacy": "./configs/typescript-legacy.js"
+  },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.53.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-no-null": "^1.0.2"
+    "eslint-config-prettier": "^8.6.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
