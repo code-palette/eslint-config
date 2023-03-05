@@ -1,5 +1,7 @@
 'use strict';
 
+const typescriptConfig = require('./typescript');
+
 module.exports = {
-  rules: require('./typescript').rules,
+  rules: typescriptConfig.rules,
 };

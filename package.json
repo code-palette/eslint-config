@@ -1,7 +1,25 @@
 {
   "name": "@code-palette/eslint-config",
   "version": "1.0.0",
+  "description": "Shared eslint configurations for javascript and typescript.",
   "license": "ISC",
+  "homepage": "https://github.com/code-palette/eslint-config#readme",
+  "repository": "github:code-palette/eslint-config",
+  "bugs": {
+    "url": "https://github.com/code-palette/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "typescript",
+    "rxjs",
+    "prettier",
+    "flat"
+  ],
+  "files": [
+    "/configs"
+  ],
   "exports": {
     ".": "./configs/javascript.js",
     "./javascript": "./configs/javascript.js",
@@ -11,7 +29,8 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.53.0",
-    "eslint-config-prettier": "^8.6.0"
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-rxjs": "^5.0.2"
   },
   "peerDependencies": {
     "eslint": ">= 8"
